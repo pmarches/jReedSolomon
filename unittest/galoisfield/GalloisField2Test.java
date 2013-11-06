@@ -1,9 +1,13 @@
 package galoisfield;
 
-import junit.framework.TestCase;
+import static org.junit.Assert.assertEquals;
 
-public class GalloisField2Test extends TestCase {
+import org.junit.Test;
 
+
+public class GalloisField2Test {
+
+	@Test
 	public void testGalloisField2() {
 		GalloisField2 gf2_4 = new GalloisField2(4);
 
